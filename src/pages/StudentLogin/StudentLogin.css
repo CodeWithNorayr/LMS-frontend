@@ -1,0 +1,82 @@
+.student-login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.student-login-form-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.student-login-email-p{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(93, 10, 13);
+}
+
+.student-login-email-input{
+  width: 400px;
+  height: 30px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(93, 10, 13);
+  box-shadow: 0px 0px 2px 2px rgb(215, 92, 92);
+}
+
+.student-login-password-p{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(10, 10, 93);
+}
+
+.student-login-password-input{
+  width: 400px;
+  height: 30px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(10, 10, 93);
+  box-shadow: 0px 0px 2px 2px rgb(55, 27, 129);
+}
+
+.student-login-button-btn{
+  width: 100px;
+  height: 40px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(5, 3, 29);
+  background-color: rgb(211, 211, 230);
+  box-shadow: 0px 0px 2px 2px rgb(49, 44, 131);
+  cursor: pointer;
+}
+
+.student-login-button-btn:hover{
+  background-color: rgb(162, 162, 208);
+}
+
+.student-login-form-h3{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(10, 10, 93);
+}

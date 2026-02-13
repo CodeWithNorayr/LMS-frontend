@@ -1,0 +1,141 @@
+/* ✅ GLOBAL FIX */
+* {
+  box-sizing: border-box;
+}
+
+/* ===============================
+   STUDENT CARD CONTAINER
+================================ */
+.studentsData-list-full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  gap: 15px;
+
+  margin: 25px auto;
+  padding: 20px;
+
+  width: 100%;
+  max-width: 420px;
+
+  background-color: rgb(219, 219, 236);
+
+  border-radius: 18px;
+
+  box-shadow: 0px 6px 15px rgba(7, 2, 27, 0.25);
+
+  line-height: 1.4;
+
+  transition: 0.3s ease;
+}
+
+/* ✅ Hover Effect */
+.studentsData-list-full:hover {
+  background-color: rgb(211, 211, 226);
+  transform: translateY(-5px);
+}
+
+
+/* ===============================
+   STUDENT IMAGE
+================================ */
+.studentsData-list-full-image {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+
+  border-radius: 14px;
+
+  box-shadow: 0px 4px 12px rgba(103, 34, 34, 0.4);
+}
+
+
+/* ===============================
+   STUDENT NAME
+================================ */
+.studentsData-list-full-h3 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+
+  font-size: 26px;
+  color: rgb(104, 94, 160);
+}
+
+
+/* ===============================
+   STUDENT INFO
+================================ */
+.studentsData-list-full-h5 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+
+  font-size: 18px;
+  color: rgb(66, 61, 92);
+}
+
+
+/* ===============================
+   STATUS / TITLE
+================================ */
+.studentsData-list-full-h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+
+  font-size: 20px;
+  color: rgb(156, 146, 208);
+
+  cursor: not-allowed;
+}
+
+
+/* ===============================
+   BORDER BOX
+================================ */
+.studentsData-list-full-h1-div {
+  border: 2px solid rgb(188, 181, 226);
+  border-radius: 12px;
+
+  padding: 10px 15px;
+  width: fit-content;
+}
+
+
+/* ===============================
+   TABLET RESPONSIVE
+================================ */
+@media (max-width: 1212px) {
+  .studentsData-list-full {
+    max-width: 90%;
+  }
+}
+
+
+/* ===============================
+   MOBILE RESPONSIVE
+================================ */
+@media (max-width: 764px) {
+
+  .studentsData-list-full {
+    padding: 15px;
+    gap: 12px;
+  }
+
+  .studentsData-list-full-h3 {
+    font-size: 22px;
+  }
+
+  .studentsData-list-full-h5 {
+    font-size: 16px;
+  }
+
+  .studentsData-list-full-h1 {
+    font-size: 18px;
+  }
+
+  .studentsData-list-full-image {
+    max-width: 140px;
+  }
+}

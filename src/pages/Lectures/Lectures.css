@@ -1,0 +1,163 @@
+/* ✅ GLOBAL FIX */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   PAGE TITLE
+================================ */
+.lectures-page-title {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #241212;
+
+  text-align: center;
+  padding: 15px;
+  margin: 40px auto;
+
+  max-width: 1200px;
+
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(89, 56, 56, 0.3);
+}
+
+
+/* ===============================
+   MAIN COURSE GRID CONTAINER
+================================ */
+.course-box-full-section-div {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+/* ===============================
+   COURSE CARD
+================================ */
+.course-box-sec {
+  border: 1px solid rgba(12, 2, 2, 0.2);
+  border-radius: 16px;
+
+  padding: 15px;
+  background: white;
+
+  box-shadow: 0px 4px 12px rgba(13, 60, 60, 0.15);
+
+  transition: 0.3s ease;
+}
+
+.course-box-sec:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 18px rgba(13, 60, 60, 0.25);
+}
+
+
+/* ===============================
+   COURSE IMAGE
+================================ */
+.course-image {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 14px;
+  box-shadow: 0px 3px 10px rgba(250, 128, 114, 0.4);
+}
+
+
+/* ===============================
+   TEXT STYLING
+================================ */
+.price-section-h2,
+.course-info-h3,
+.course-info-p,
+.chapter-title,
+.lecture-box-h4 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  color: #241212;
+
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Sizes */
+.price-section-h2 {
+  font-size: 20px;
+}
+
+.course-info-h3 {
+  font-size: 18px;
+}
+
+.course-info-p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.chapter-title,
+.lecture-box-h4 {
+  font-size: 17px;
+}
+
+
+/* ===============================
+   TABLET RESPONSIVE (max 1212px)
+================================ */
+@media (max-width: 1212px) {
+
+  .course-box-full-section-div {
+    padding: 20px;
+    gap: 18px;
+  }
+
+  .lectures-page-title {
+    font-size: 22px;
+  }
+}
+
+
+/* ===============================
+   MOBILE RESPONSIVE (max 764px)
+================================ */
+@media (max-width: 764px) {
+
+  .course-box-full-section-div {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .lectures-page-title {
+    font-size: 20px;
+    margin: 20px auto;
+  }
+
+  .course-box-sec {
+    padding: 12px;
+  }
+
+  .price-section-h2 {
+    font-size: 18px;
+  }
+
+  .course-info-h3 {
+    font-size: 16px;
+  }
+
+  .course-info-p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,162 @@
+.educator-dash-adding-form-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.educator-dash-img-add{
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 2px 2px rgb(210, 123, 123);
+}
+
+.educator-dash-img-viewapplication-image-section{
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 2px 2px rgb(210, 123, 123);
+}
+
+.educator-dash-img-upcoming-section-image{
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 2px 2px rgb(210, 123, 123);
+}
+
+.educator-dash-img-teachers-section-image{
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 2px 2px rgb(210, 123, 123);
+}
+
+.educator-dash-img-students-section-image{
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 2px 2px rgb(210, 123, 123);
+}
+
+.educator-dash-img-adding-section{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  list-style: none;
+  color: #c04949;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgb(191, 157, 157);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.educator-dash-img-adding-section:hover{
+  box-shadow: 0 8px 10px rgb(167, 122, 122);
+}
+
+.educator-dash-img-viewapplication-section{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  list-style: none;
+  color: #c04949;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgb(191, 157, 157);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.educator-dash-img-viewapplication-section:hover{
+  box-shadow: 0 8px 10px rgb(167, 122, 122);
+}
+
+
+.educator-dash-img-upcoming-section{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  list-style: none;
+  color: #c04949;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgb(191, 157, 157);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.educator-dash-img-upcoming-section:hover{
+  box-shadow: 0 8px 10px rgb(167, 122, 122);
+}
+
+.educator-dash-img-teachers-section{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  list-style: none;
+  color: #c04949;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgb(191, 157, 157);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.educator-dash-img-teachers-section:hover{
+  box-shadow: 0 8px 10px rgb(167, 122, 122);
+}
+
+.educator-dash-img-students-section{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  list-style: none;
+  color: #c04949;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgb(191, 157, 157);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.educator-dash-img-students-section:hover{
+  box-shadow: 0 8px 10px rgb(167, 122, 122);
+}
+
+.educator-dash-img-h1-section-p{
+  justify-content: center;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  list-style: none;
+  color: #6c5858;
+  cursor: not-allowed;
+  box-shadow: 0 8px 10px rgb(191, 157, 157);
+}

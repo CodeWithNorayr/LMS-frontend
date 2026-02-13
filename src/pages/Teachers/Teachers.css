@@ -1,0 +1,115 @@
+/* ✅ GLOBAL FIX */
+* {
+  box-sizing: border-box;
+}
+
+/* ===============================
+   TEACHER CARD CONTAINER
+================================ */
+.teachers-data-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 18px;
+  text-align: center;
+
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+
+  border: 2px solid rgb(26, 5, 67);
+  border-radius: 18px;
+
+  background-color: azure;
+
+  box-shadow: 0px 6px 15px rgba(1, 1, 30, 0.2);
+
+  margin: 20px auto;
+}
+
+
+/* ===============================
+   TITLE
+================================ */
+.teachers-data-section-h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+
+  font-size: 26px;
+  color: rgb(131, 131, 199);
+
+  padding: 8px 14px;
+  border-radius: 12px;
+
+  box-shadow: 0px 3px 8px rgba(82, 17, 17, 0.3);
+}
+
+
+/* ===============================
+   TEACHER IMAGE
+================================ */
+.teachers-data-section-img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+
+  border-radius: 14px;
+
+  box-shadow: 0px 4px 10px rgba(3, 27, 4, 0.25);
+}
+
+
+/* ===============================
+   TEXT INFO
+================================ */
+.teachers-data-section-text-section-h3,
+.teachers-data-section-text-section-email {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  padding: 4px;
+  color: #241212;
+}
+
+
+/* ===============================
+   TABLET RESPONSIVE
+================================ */
+@media (max-width: 1212px) {
+  .teachers-data-section {
+    max-width: 90%;
+  }
+
+  .teachers-data-section-h1 {
+    font-size: 24px;
+  }
+}
+
+
+/* ===============================
+   MOBILE RESPONSIVE
+================================ */
+@media (max-width: 764px) {
+  .teachers-data-section {
+    padding: 15px;
+    gap: 14px;
+  }
+
+  .teachers-data-section-h1 {
+    font-size: 20px;
+  }
+
+  .teachers-data-section-text-section-h3,
+  .teachers-data-section-text-section-email {
+    font-size: 14px;
+  }
+
+  .teachers-data-section-img {
+    max-width: 230px;
+  }
+}

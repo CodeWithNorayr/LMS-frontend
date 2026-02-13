@@ -1,0 +1,74 @@
+.teacher-personal-page-image{
+  width: 100px;
+  height: 100px;
+  border: 0.5px solid rgb(62, 56, 56);
+  border-radius: 100px;
+  box-shadow: 0px 0px 2px 2px rgb(118, 118, 238);
+}
+
+.teachers-personal-page{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.h2-section{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(13, 6, 47);
+}
+
+.email-section{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(13, 6, 47);
+}
+
+.teachers-personal-page-h1{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(23, 12, 82);
+}
+
+.button-btn-update-upd{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 17px;
+  color: rgb(23, 12, 82);
+  width: 100px;
+  height: 30px;
+  padding: 4px 4px 4px 4px;
+}
+
+.button-btn-delete-del{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 17px;
+  color: rgb(131, 12, 12);
+  width: 100px;
+  height: 30px;
+  padding: 4px 4px 4px 4px;
+}
+
+.button-section-div{
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

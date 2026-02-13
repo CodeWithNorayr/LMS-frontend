@@ -1,0 +1,76 @@
+.student-enter-choice-section-images{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.student-enter-choice-section-images-img-1{
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 8px 10px rgb(41, 134, 134);
+}
+
+.student-enter-choice-section-images-img-1:hover{
+  width: 290px;
+  height: 290px;
+  box-shadow: 0 8px 10px rgb(25, 1, 1);
+}
+
+.student-enter-choice-section-images-img-2{
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 8px 10px rgb(41, 134, 134);
+}
+
+.student-enter-choice-section-images-img-2:hover{
+  width: 290px;
+  height: 290px;
+  box-shadow: 0 8px 10px rgb(23, 1, 2);
+}
+
+.student-enter-choice-section-h1-h1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  color: #834a4a;
+  cursor: not-allowed;
+  box-shadow: 0 8px 10px rgb(191, 157, 157);
+}
+
+@media (max-width:764px) {
+  .student-enter-choice-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .student-enter-choice-section-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .student-enter-choice-section-images-img-1{
+    width: 200px;
+    height: 200px;
+  }
+
+  .student-enter-choice-section-images-img-2{
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,151 @@
+.educator-registration-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.educator-registration-section-image-input-field{
+  width: 330px;
+  height: 30px;
+  padding: 2px 2px 2px 2px;
+  box-shadow: 0px 0px 2px 2px  rgb(100, 80, 226);
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #8886a6;
+}
+
+.educator-registration-section-image-input-field:hover{
+  box-shadow: 0px 0px 2px 2px  rgb(66, 45, 200);
+}
+
+.educator-registration-section-input-email{
+  width: 330px;
+  height: 30px;
+  padding: 2px 2px 2px 2px;
+  box-shadow: 0px 0px 2px 2px  rgb(226, 106, 106);
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #8886a6;
+}
+
+.educator-registration-section-input-email:hover{
+  box-shadow: 0px 0px 2px 2px  rgb(217, 75, 75)
+}
+
+.educator-registration-section-input-password{
+  width: 330px;
+  height: 30px;
+  padding: 2px 2px 2px 2px;
+  box-shadow: 0px 0px 2px 2px  rgb(154, 5, 5);
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #8886a6;
+}
+
+.educator-registration-section-input-password:hover{
+  box-shadow: 0px 0px 2px 2px  rgb(232, 12, 12)
+}
+
+.educator-registration-form-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.educator-registration-section-h1-h1{
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #8886a6;
+  cursor: not-allowed;
+}
+
+.educator-registration-section-image-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 2px 2px rgb(5, 1, 22);
+}
+
+.educator-registration-section-image-img:hover{
+  box-shadow: 0px 0px 2px 2px rgb(26, 3, 128);
+}
+
+.educator-registration-section-p{
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #8886a6;
+  cursor: not-allowed;
+}
+
+.educator-registration-section-email{
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #f78a8a;
+  cursor: not-allowed;
+}
+
+.educator-registration-section-password{
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #e37f4a;
+  cursor: not-allowed;
+}
+
+.educator-registration-section-input-checkbox-p{
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #e37f4a;
+  cursor: not-allowed;
+}
+
+.educator-registration-section-input-checkbox{
+  width: 20px;
+  height: 20px;
+}
+
+.input-checkbox-section{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.educator-registration-section-input-checkbox-p{
+  color: cadetblue;
+}
+
+.educator-submit-button{
+  width: 120px;
+  height: 40px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(230, 230, 233);
+  background-color: rgb(124, 124, 153);
+  cursor: pointer;
+}
+
+.educator-submit-button:hover{
+  background-color: rgb(148, 148, 170);
+}

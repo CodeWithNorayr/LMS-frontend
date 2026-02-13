@@ -1,0 +1,163 @@
+/* Full Page Background */
+.student-registration-page-fields {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to right, #f8f9ff, #eef2ff);
+  font-family: "Segoe UI", sans-serif;
+  padding: 30px;
+}
+
+/* Title */
+.student-registration-page-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #222;
+  text-align: center;
+}
+
+/* Form Container */
+form {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: 35px;
+  border-radius: 18px;
+
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Input Fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Focus Effect */
+form input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0px 0px 6px rgba(79, 70, 229, 0.35);
+}
+
+/* Upload Profile Image */
+.student-registration-page-fields-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+
+  border: 3px solid #4f46e5;
+  transition: 0.3s ease;
+}
+
+.student-registration-page-fields-image:hover {
+  transform: scale(1.07);
+}
+
+/* Upload Text */
+form p {
+  font-size: 14px;
+  color: #444;
+  margin: 6px 0;
+}
+
+/* Resume Upload Box */
+label img {
+  width: 45px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+label img:hover {
+  transform: scale(1.1);
+}
+
+/* Resume Filename */
+form div p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Checkbox Section */
+form div:last-of-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+
+  background: #4f46e5;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button Hover */
+button:hover {
+  background: #3730a3;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 764px) {
+  form {
+    padding: 25px;
+  }
+
+  .student-registration-page-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .student-registration-page-upload-image{
+    font-size: 35px;
+  }
+
+  .student-registration-page-title {
+    font-size: 35px;
+  }
+
+  .student-registration-page-upload-resume{
+    font-size: 35px;
+  }
+
+  .student-registration-page-checkbox-p{
+    font-size: 20px;
+  }
+}

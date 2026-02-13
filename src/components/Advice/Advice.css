@@ -1,0 +1,121 @@
+/* ============================
+   ADVICE SECTION DESKTOP
+============================ */
+
+.advice-full-section-context {
+  width: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 10px rgb(150, 82, 82);
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+
+  gap: 20px;
+}
+
+/* Title */
+.h1-section-context-advice {
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(6, 38, 38);
+}
+
+/* Paragraph */
+.p-section-context-advice-p {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(6, 38, 38);
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+/* ============================
+   PARTNER IMAGES
+============================ */
+
+.advice-partners-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap; /* ✅ IMPORTANT */
+}
+
+.advice-partners-images-img {
+  width: 180px;
+  height: 100px;
+  object-fit: contain;
+
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(200, 150, 150, 0.6);
+
+  transition: 0.25s ease;
+}
+
+.advice-partners-images-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(103, 55, 55, 0.7);
+}
+
+/* ============================
+   MOBILE RESPONSIVE FIX
+============================ */
+
+@media (max-width: 1212px) {
+  .advice-full-section-context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* center logo + buttons */
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    gap: 10px;
+    margin: 0;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .advice-full-section-context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* center logo + buttons */
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    gap: 10px;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .h1-section-context-advice {
+    font-size: 28px;     /* ✅ smaller title */
+  }
+
+  .p-section-context-advice-p {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+
+  .advice-partners-images {
+    gap: 20px;
+  }
+
+  .advice-partners-images-img {
+    width: 120px;        /* ✅ better size for mobile */
+    height: 70px;
+  }
+}

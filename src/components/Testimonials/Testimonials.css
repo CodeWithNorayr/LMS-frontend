@@ -1,0 +1,120 @@
+/* ===========================
+   TESTIMONIALS SECTION
+=========================== */
+.testimonials-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+  flex-wrap: wrap;
+  padding: 0 20px; /* small horizontal padding for mobile */
+  box-sizing: border-box;
+}
+
+/* ===========================
+   SINGLE SLIDE
+=========================== */
+.testimonial-slide {
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  margin: 20px;
+}
+
+/* Fade Animations */
+.fade-in {
+  opacity: 1;
+}
+.fade-out {
+  opacity: 0;
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+.testimonial-image-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-image-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-image-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+/* ===========================
+   COMMENT
+=========================== */
+.testimonial-comment h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* ===========================
+   POSTER NAME
+=========================== */
+.testimonial-poster h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+@media (max-width: 1212px) {
+  .testimonial-comment h3{ 
+    font-size: 30px;
+  }
+
+  .testimonial-poster h2{
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .testimonials-section {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+
+  .testimonial-slide {
+    width: 100%;
+    max-width: 350px;
+    margin: 15px 0;
+  }
+
+  .testimonial-image-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimonial-comment h3 {
+    font-size: 38px;
+  }
+
+  .testimonial-poster h2 {
+    font-size: 38px;
+  }
+}
