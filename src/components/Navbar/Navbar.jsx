@@ -59,7 +59,7 @@ const Navbar = () => {
 
   const renderShopToken = () => {
     if (token) {
-     retrun (
+     return (
       <button
         onClick={() => navigate("/cart-details")}
         className="navbar-section-buttons-section-btn"
