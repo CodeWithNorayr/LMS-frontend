@@ -9,7 +9,7 @@ export const StoreContextProvider = ({ children }) => {
   const navigate = useNavigate();
 
   // ✅ Backend URL
-  const backendURL = "http://localhost:4000";
+  const backendURL = "https://mernback-s3ih.onrender.com";
 
   const [filteredCourses, setFilteredCourses] = useState([]);
 
@@ -41,7 +41,7 @@ export const StoreContextProvider = ({ children }) => {
     }));
 
     if(token){
-      await axios.post(`http://localhost:4000/api/cart/add`,{itemId},{
+      await axios.post(`https://mernback-s3ih.onrender.com/api/cart/add`,{itemId},{
         headers:{
           "Authorization":`Bearer ${token}`
         }
@@ -64,7 +64,7 @@ export const StoreContextProvider = ({ children }) => {
     });
 
     if(token){
-      await axios.post(`http://localhost:4000/api/cart/remove`,{itemId},{
+      await axios.post(`https://mernback-s3ih.onrender.com/api/cart/remove`,{itemId},{
         headers:{
           "Authorization":`Bearer ${token}`
         }
