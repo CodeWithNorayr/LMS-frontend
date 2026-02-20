@@ -13,7 +13,7 @@ const Verify = () => {
 
   const verifyPayment = async () => {
     try {
-      const response = await axios.post(`https://mernback-s3ih.onrender.com/api/order/verify`, { success, orderId },{headers:{
+      const response = await axios.post(`https://lms-backend-1-u38j.onrender.com/api/order/verify`, { success, orderId },{headers:{
         "Authorization":`Bearer ${token}`
       }});
       if (response.data.success) {
